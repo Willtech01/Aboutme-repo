@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutme-page</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <script src="https://kit.fontawesome.com/468e2a8efa.js" crossorigin="anonymous"></script>
+</head>
+<!-- styling -->
+<style>
+  .container{
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: whitesmoke;
+  }
+  .biog{
+    margin-left: -400px;
+  }
+
+  .dropdown{
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+  
+
+  }
+H3{
+  text-align: center;
+}
+.aboutme{
+  text-align: center;
+  margin-top: 5px;
+  margin: auto;
+  justify-content: center;
+
+}
+
+h2{
+  text-align: center;
+}
+.button{
+  background-color: red;
+}
+
+
+@media only screen and (width: 600px){
+  .container{
+    width:98%
+  }
+}
+
+</style>
+<body>
+  <!-- coding -->
+    <div class="container ">
+      <header>
+        <div class="dropdown">
+         <div class="biog"> <h2>MY BIOGRAPHY</h2></div>
+          <button class="btn btn-secondary dropdown-toggle ms-5" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            Click
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button"><a href="./Contact page.html">Contact page</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="./Register page.html">Register page</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="./Login page.html">Login page</a></button></li>
+          </ul>
+        </div>
+        
+        
+        <img src="./image/IMG_20201211_063035_680 (2).jpg" alt="">
+        
+      </header>
+      <div class="col-2"></div> 
+  <div class="col-8"> 
+  <div class="aboutme">
+   <div>
+    <H3>ABOUT ME</H3>
+    <p>
+      I am <b>okorie Godswill Ogonnaya</b> born in nineties. 
+      From Ebonyi State, Ohaozara Local Goverment. Grew up in onugoni 
+      Comminity okposi okwu.
+      My Father's name is Okaji Daniel Uzor(He's late) and mother's name Okorie Sunday Uzor.
+      I have three siblines, two sisters and one brother. 
+      And am the youngest among them all. 
+    </p>
+   </div>
+   <div>
+    <H3>MY GOALS FOR THIS PROGRAMME</H3>
+    <p>
+      It all started when I was in school, we where taking programing as a course then.
+       After that I gave a thought and i came to a conclussion to go further and become a great/ 
+      Professonal programmer. <br>
+      My main priority for this course now is to Master the act of Programming.
+
+    </p>
+
+    
+   </div>
+  
+       <div>
+        <H3>MY EDUCATION BACKGROUND</H3>
+        <p>I did my nursery and Primary school at ugoni pramiry school okposi okwu where i acquired my first 
+          school leaving certificate. 
+          Then I entered Good Foundation Secondary School Okposi where I got my junior and senior WAEC Certificate. 
+        And now, I am an undergraguate of petroleum training institute Delta state 
+      and i studdy petroleum engineering and geosciences. <br> Some images of me in Campus below...
+       </p>
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/IMG_20220721_100909_523 (1).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide</h5>
+              <p class="text-dark">Me after away Practicals in Lab.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/IMG_20220223_195155_654.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide</h5>
+              <p class="text-dark">After sunday service in Campus,I alwayls put God first in all i do.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/1EBEAF2D-1E2B-4751-BEB5-B7FF2966DA20L0001 (3).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide</h5>
+              <p class="text-dark">Me and my course mates during OTC practical.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+       </div><br>
+
+       <div class="hobbies">
+        <h3>
+          JOB EXPERIENCE AND HOBBIES
+        </h3>
+        <P>
+          Right from my young age the only thing i have been dedicated to is business cus my mom and late Dad are business minded.
+          i have not got that much experience on working for someone (job).
+        </P>
+
+        <p>
+          I love listening and singing to worship songs where ever I found my self. <br>
+          Learning and making Researchs in my convenient time. <br>
+          I love playing and watching football and i support manchester united.
+        </p>
+       </div>
+       <button class="button">
+        <a class="text-white" href="./Contact page.html">Contact</a>
+       </button>
+  <div class="col-2"></div>
+  </div>
+  <div>
+</div><br><br><br>
+    </div>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
